@@ -1,0 +1,35 @@
+ Project: Autonomous Parcel Delivery Robot
+
+Overview
+Designing a Two Wheeled Self-Balancing Robot (TWSBR) to autonomously deliver parcels involves integrating LiDAR for mapping and obstacle detection, and using a PID controller for balance. The robot will navigate using ROS with A* for path planning, ensuring efficient and safe delivery.
+
+ Hardware Components
+- LiDAR Sensor**: Provides 360-degree environmental scanning.
+- IMU: Ensures balance and orientation.
+- Motor Driver: Controls movement and balance.
+- Onboard Computer**: Processes LiDAR data and runs algorithms.
+- Battery**: Powers the robot throughout its tasks.
+
+ Software Components
+- ROS: Manages sensor data, control algorithms, and communication.
+- SLAM Algorithm: Simultaneous Localization and Mapping for mapping the environment.
+- Path Planning (A*): Optimizes route based on obstacles.
+- PID Controller: Maintains balance while navigating.
+
+Implementation
+1. Sensor Integration: Utilize ROS to process LiDAR and IMU data.
+2. Algorithm Development: Implement SLAM for mapping and A* for path planning.
+3. Control System: PID controller ensures stability during movement.
+4. Testing and Optimization: Simulate and iterate in controlled environments for efficiency and safety.
+
+ Documentation
+- Project Overview: Objectives and methodology.
+- Hardware Setup: Components and circuit diagrams.
+- Software Design: Code snippets and algorithms explained.
+- Testing Results: Evaluation of performance with real-world scenarios.
+
+ References
+- Literature on ROS, SLAM, and PID controllers.
+- OpenAI's GPT-4 for ideation and conceptualization support.
+
+By following this approach, the TWSBR can effectively navigate traffic, turns, and obstacles to deliver parcels autonomously, leveraging advanced robotics and AI technologies.
